@@ -197,7 +197,16 @@ inner-content{
 .inner-content li{
   display: inline-block;
   border-image: 2px solid black;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 25px 00px 38px;
+  
+}
+.inner-content p{
+  background-color: antiquewhite;
+  width: 250px;
+  height: 150px;
+  text-align: justify;
+  font-size: 16px;
+  padding-top: 8px;
 }
 
 /*Footer*/
