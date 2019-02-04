@@ -185,36 +185,57 @@ nav ul li ul li a {
 /*Content Css*/
 .wapper{
   width: 100%;
-  height: 1500px;  
+  height: 1200px;  
+  position: relative;
 
+ 
 }
 .content-container{
- width: 100%;
- height: 1450px;  
- position: static;
- 
-}
-.inner-content li{
-  display: inline-block;
-  border-image: 2px solid black;
-  padding: 30px 25px 00px 38px;
- 
   
+  background-color:lightseagreen;
+  
+ }
+.inner-content li{
+
+  // padding: 20px 35px 00px 15px; 
+ margin: 50px 40px 50px 88px;
+  display:inline-block; 
+  position: sticky;
+
   
 }
 .inner-content p{
   background-color:whitesmoke;
   box-shadow: 3px 5px 50px rgba(0, 0, 0, .5); 
   width: 250px;
-  height: 150px;
-  text-align: justify;
-  font-size: 16px;
-  padding-top: 8px;
+  height: 200px;
+  font-size: 17px;
+  padding: 0px;
+  margin-top:initial;
+  text-align: center;
+  text-anchor: start;
+}
+button{
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 7px;
+  background-color:lightseagreen;
+  color: white;
+  margin-top: 10px;
+
+
+}
+button:hover{
+  background-color: red;
+  color:white;
+  
+
 }
 
 /*Footer*/
 .footer{
-  height: 100px;
+  height: 250px;
   width: 100%;
   background-color:#463f3f ;
 
