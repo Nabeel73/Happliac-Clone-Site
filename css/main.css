@@ -235,16 +235,16 @@ button:hover{
 }
 /*ADMISSIONS*/
 h2{
-  color:darkslategrey;
+  color: 	#300000 ;
   font-weight: bolder;
-  padding-bottom: 10px;
   text-align: center;
+  padding-top: 10px;
+  
 
 
 }
 .admission-columns{
-
-  margin:20px 00px  50px 120px;
+  margin:50px 00px  50px 120px;
   text-align: center;
   width: 80%;
   height: 250px;
@@ -261,15 +261,29 @@ h2{
   font-size: 16px;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  //box-shadow: 3px 2px 20px rgba(0, 0, 0, .5); 
+  
 }
 /*POSITION  HOLDERS*/
-.position{
-  height: 300px;
+.position-holder{
+  height: 400px;
   
 
 }
+.position-holder li{
+  display: inline-block;
+  margin: 50px 70px 18px 8px;
+  
+  
 
+}
+.position-holder li p{
+  width: 200px;
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 15px;
+  
+ 
+}
 /*Footer*/
 .footer{
   height: 250px;
