@@ -235,9 +235,10 @@ button:hover{
 }
 /*ADMISSIONS*/
 h2{
-  color: #463f3f;
+  color:darkslategrey;
   font-weight: bolder;
   padding-bottom: 10px;
+  text-align: center;
 
 
 }
@@ -261,6 +262,12 @@ h2{
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   //box-shadow: 3px 2px 20px rgba(0, 0, 0, .5); 
+}
+/*POSITION  HOLDERS*/
+.position{
+  height: 300px;
+  
+
 }
 
 /*Footer*/
