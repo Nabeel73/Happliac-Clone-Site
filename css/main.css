@@ -115,7 +115,7 @@ nav ul li ul li a {
   position: absolute;
   display: block;
   content: '';
-  transition: all 300ms ease-in-out;
+  transition: all 100s ease-in-out;
 }
 #nav-toggle span:before {
   top: -10px;
@@ -185,7 +185,7 @@ nav ul li ul li a {
 /*Content Css*/
 .wapper{
   width: 100%;
-  height: 1200px;  
+  height: 1150px;  
   position: relative;
 
  
@@ -193,12 +193,14 @@ nav ul li ul li a {
 .content-container{
   
   background-color:lightseagreen;
+  padding-top: 50px;
+  height: 1150px;  
   
  }
 .inner-content li{
 
-  // padding: 20px 35px 00px 15px; 
- margin: 50px 40px 50px 88px;
+  /* padding: 20px 35px 00px 15px;*/ 
+   margin: 00px 50px 50px 82px;
   display:inline-block; 
   position: sticky;
 
@@ -214,23 +216,51 @@ nav ul li ul li a {
   margin-top:initial;
   text-align: center;
   text-anchor: start;
+  padding-top: 5px;
 }
 button{
   width: 100px;
   height: 25px;
   border: none;
   border-radius: 7px;
-  background-color:lightseagreen;
+  background-color: #463f3f;;
   color: white;
   margin-top: 10px;
-
-
 }
 button:hover{
   background-color: red;
   color:white;
   
 
+}
+/*ADMISSIONS*/
+h2{
+  color: #463f3f;
+  font-weight: bolder;
+  padding-bottom: 10px;
+
+
+}
+.admission-columns{
+
+  margin:20px 00px  50px 120px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  padding-bottom: 30px; 
+  font-size: 20px;
+  
+ 
+}
+.admission-columns p{
+  margin-top: 20px;
+  padding-top: 10px;
+  height: 200px;
+  color:#463f3f;
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  //box-shadow: 3px 2px 20px rgba(0, 0, 0, .5); 
 }
 
 /*Footer*/
