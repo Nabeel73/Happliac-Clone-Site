@@ -1,303 +1,322 @@
 @charset "UTF-8";
+
 /* 
 $content-width will be the max width of the content within the navigation bar. 
 $breakpoint determines at which width the media query breakpoint will take effect.
 */
+
 body {
     background-color: #63D6E0;
     margin: 0px auto;
     padding: none;
-    overflow-x:hidden;
+    //   overflow-x: hidden;
 }
-section.navigation{
-    background-color:white;   
+
+header {
+    background-color: white;
     box-shadow: 3px 5px 50px rgba(0, 0, 0, .5);
+    //  position: relative;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
     position: relative;
 }
-nav {
-  float: right;
- 
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  float: left;
-  position: relative;
-}
+
 nav ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 70px;
-  background:#ffffff;
-  color: #463f3f;
-  text-decoration: none;
-  font-size: 18px;
-  /*
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: #ffffff;
+    color: #463f3f;
+    text-decoration: none;
+    font-size: 18px;
+    /*
   The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
   */
 }
+
 nav ul li a:hover {
-  background: purple;
-  color:whitesmoke;
-  text-decoration: none;
+    background: purple;
+    color: whitesmoke;
+    text-decoration: none;
 }
+
 nav ul li a:not(:only-child):after {
-  padding-left: 4px;
-  content: ' ▾';
+    padding-left: 4px;
+    content: ' ▾';
 }
+
 nav ul li ul li {
-  min-width: 190px;
+    min-width: 190px;
 }
+
 nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
+    padding: 15px;
+    line-height: 20px;
 }
 
 .nav-dropdown {
-  position: absolute;
-  z-index: 1;
-  /* Guarantees that the dropdown will display on top of any content. */
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  display: none;
+    position: absolute;
+    z-index: 1;
+    /* Guarantees that the dropdown will display on top of any content. */
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
 }
 
 .nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: #fff;
-  height: 70px;
-  width: 70px;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    height: 70px;
+    width: 70px;
 }
 
 @media only screen and (max-width: 800px) {
-  .nav-mobile {
-    display: block;
-  }
+    .nav-mobile {
+        display: block;
+    }
+    nav {
+        width: 100%;
+        padding: 70px 0 15px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        float: none;
+    }
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+    }
+    nav ul li ul li a {
+        padding-left: 30px;
+    }
+}
 
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 15px;
-    line-height: 20px;
-  }
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
-}
 #nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
 }
+
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: #463f3f;
-  position: absolute;
-  display: block;
-  content: '';
-  transition: all 100s ease-in-out;
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #463f3f;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 100s ease-in-out;
 }
+
 #nav-toggle span:before {
-  top: -10px;
+    top: -10px;
 }
+
 #nav-toggle span:after {
-  bottom: -10px;
+    bottom: -10px;
 }
+
 #nav-toggle.active span {
-  background-color: transparent;
+    background-color: transparent;
 }
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
+
+#nav-toggle.active span:before,
 #nav-toggle.active span:after {
-  transform: rotate(-45deg);
+    top: 0;
+}
+
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
 }
 
 @media screen and (min-width: 800px) {
-  .nav-list {
-    display: block !important;
-  }
+    .nav-list {
+        display: block !important;
+    }
 }
+
+
 /* 
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
+
 .navigation {
-  height: 70px;
-  background: #ffffff;
+    height: 70px;
+    background: #ffffff;
 }
+
 
 /*
 .nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
 */
+
 .nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1.4em;
 }
+
 .brand a,
 .brand a:visited {
-  color: #463f3f;
-  text-decoration: none;
+    color: #463f3f;
+    text-decoration: none;
 }
+
+
 /*SLIDER START HERE*/
-.slider_box{
+
+.slider_box {
     background-color: antiquewhite;
     padding: none;
     margin: none;
-    width: 100%;
     height: 600px;
-    
 }
+
+
 /*After Slider CSS*/
 
 
 /*Content Css*/
-.wapper{
-  width: 100%;
-  height: 1150px;  
-  position: relative;
 
- 
+.wapper {
+    width: 100%;
+    height: 1150px;
+    position: relative;
 }
-.content-container{
-  
-  background-color:#E8E8E8;
-  padding-top: 50px;
-  height: 1150px;  
-  
- }
-.inner-content li{
 
-  /* padding: 20px 35px 00px 15px;*/ 
-   margin: 00px 50px 50px 82px;
-  display:inline-block; 
- position: sticky;
+.content-container {
+    background-color: #E8E8E8;
+    padding-top: 30px;
+}
 
-  
+.inner-content li {
+    /* padding: 20px 35px 00px 15px;*/
+    margin: 00px 100px 30px 90px;
+    display: inline-block;
+    //position: sticky;
 }
-.inner-content p{
-  background-color:whitesmoke;
-  box-shadow: 3px 5px 50px rgba(0, 0, 0, .5); 
-  width: 250px;
-  height: 200px;
-  font-size: 17px;
-  padding: 0px;
-  margin-top:initial;
-  text-align: center;
-  text-anchor: start;
-  padding-top: 5px;
-}
-button{
-  width: 100px;
-  height: 25px;
-  border: none;
-  border-radius: 7px;
-  background-color: #463f3f;;
-  color: white;
-  margin-top: 10px;
-}
-button:hover{
-  background-color: red;
-  color:white;
-  
 
+.inner-content p {
+    background-color: whitesmoke;
+    box-shadow: 3px 5px 50px rgba(0, 0, 0, .5);
+    width: 250px;
+    height: 200px;
+    font-size: 17px;
+    padding: 0px;
+    margin-top: initial;
+    text-align: center;
+    text-anchor: start;
+    padding-top: 5px;
 }
+
+button {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: #463f3f;
+    ;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+
 /*ADMISSIONS*/
-h2{
-  color: 	#300000 ;
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 10px;
-  
+
+h2 {
+    color: #300000;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.admission-columns {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.admission-columns p {
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 200px;
+    color: #463f3f;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
-}
-.admission-columns{
-  margin:50px 00px  50px 120px;
-  text-align: center;
-  width: 80%;
-  height: 250px;
-  padding-bottom: 30px; 
-  font-size: 20px;
-  
- 
-}
-.admission-columns p{
-  margin-top: 20px;
-  padding-top: 10px;
-  height: 200px;
-  color:#463f3f;
-  font-size: 16px;
-  text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
-  
-}
 /*POSITION  HOLDERS*/
-.position-holder{
-  height: 400px;
-  
 
+.position-holder {
+    height: 400px;
 }
-.position-holder li{
-  display: inline-block;
-  margin: 50px 70px 18px 8px;
-  
-  
 
+.position-holder li {
+    display: inline-block;
+    // margin: 50px 70px 18px 8px;
 }
-.position-holder li p{
-  width: 200px;
-  text-align: justify;
-  margin-top: 8px;
-  font-size: 15px;
-  
- 
+
+.position-holder li p {
+    width: 200px;
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 15px;
 }
+
+
 /*Footer*/
-.footer{
-  height: 250px;
-  width: 100%;
-  background-color:#463f3f ;
 
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: #463f3f;
 }
-#design_develop
-{
-  color:#fff;
-  text-align: center;
-  padding: 40px 0px 0px 5px;
-  font-size: 18px;
-  font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
+#design_develop {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px 0px 5px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
