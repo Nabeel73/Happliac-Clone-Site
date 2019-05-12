@@ -6,16 +6,15 @@ $breakpoint determines at which width the media query breakpoint will take effec
 */
 
 body {
-    background-color: #63D6E0;
+    background-color: white;
     margin: 0px auto;
     padding: none;
-    //   overflow-x: hidden;
 }
 
 header {
     background-color: white;
     box-shadow: 3px 5px 50px rgba(0, 0, 0, .5);
-    //  position: relative;
+    position: relative;
 }
 
 nav {
@@ -226,7 +225,7 @@ nav ul li ul li a {
     /* padding: 20px 35px 00px 15px;*/
     margin: 00px 100px 30px 90px;
     display: inline-block;
-    //position: sticky;
+    position: sticky;
 }
 
 .inner-content p {
@@ -287,13 +286,14 @@ h2 {
 
 /*POSITION  HOLDERS*/
 
-.position-holder {
-    height: 400px;
+.holder {
+    background-color: lightgoldenrodyellow;
 }
 
 .position-holder li {
     display: inline-block;
-    // margin: 50px 70px 18px 8px;
+    padding-top: 20px;
+    padding-right: 10px;
 }
 
 .position-holder li p {
