@@ -1,160 +1,235 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Happliac</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1" ">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script type="text/javascript" src="js/main.js"></script>
-    
+
+<head>
+    <title>Happliac</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet " type="text/css " href="css/main.css ">
+    <script type="text/javascript " src="js/main.js "></script>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    </script-->
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet " type="text/css " href="engine0/style.css " />
+    <!--script type="text/javascript " src="engine0/jquery.js "></script-->
+    <!-- End WOWSlider.com HEAD section -->
+
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine6/style.css" />
+	<!--script type="text/javascript" src="engine6/jquery.js"></script-->
 	<!-- End WOWSlider.com HEAD section --></head>
-<body>    
 
-    <section class="navigation">
-        <div class="nav-container">
-          <div class="brand">
-            <a href="index.html">LOGO</a>
-          </div>
-          <nav>
-            <div class="nav-mobile">
-              <a id="nav-toggle" href="#!"><span></span></a>
+<body>
+
+    <header>
+        <nav class="navigation">
+            <div class="nav-container ">
+                <div class="brand ">
+                    <a href="index.html ">LOGO</a>
+                </div>
+                <nav>
+                    <div class="nav-mobile ">
+                        <a id="nav-toggle " href="#! "><span></span></a>
+                    </div>
+                    <ul class="nav-list ">
+                        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+                        <li><a href="index.html ">Home</a></li>
+                        <li><a href="pages/admission.html ">Admission</a></li>
+                        <li><a href="pages/campuses.html ">Campuses</a>
+                            <ul class="nav-dropdown ">
+                                <li><a href="pages/gulshan.html ">Gulshan</a></li>
+                                <li><a href="pages/north.html ">North</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="pages/about.html ">About</a></li>
+                        <li><a href="pages/contact.html ">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <ul class="nav-list">
-              <!-- Setting the links to #! will ensure that no action takes place on click. -->
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/admission.html">Admission</a></li>
-              <li><a href="pages/campuses.html">Campuses</a>
-                <ul class="nav-dropdown">
-                  <li><a href="pages/gulshan.html">Gulshan</a></li>
-                  <li><a href="pages/north.html">North</a></li>
-                </ul>
-              </li>
-              <li><a href="pages/about.html">About</a></li>
-              <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-          </nav>
+        </nav>
+    </header>
+    <!---SLIDER_BOX-->
+    <section>
+        <div class="slider_box ">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container6">
+	<div class="ws_images"><ul>
+		<li><img src="data6/images/art_class.jpg" alt="art_class" title="art_class" id="wows6_0"/></li>
+		<li><img src="data6/images/break_time.jpg" alt="break_time" title="break_time" id="wows6_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data6/images/shs_home_building.jpg" alt="bootstrap image slider" title="SHS_home_building" id="wows6_2"/></a></li>
+		<li><img src="data6/images/story_class.jpg" alt="story_class" title="story_class" id="wows6_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="art_class"><span><img src="data6/tooltips/art_class.jpg" alt="art_class"/>1</span></a>
+		<a href="#" title="break_time"><span><img src="data6/tooltips/break_time.jpg" alt="break_time"/>2</span></a>
+		<a href="#" title="SHS_home_building"><span><img src="data6/tooltips/shs_home_building.jpg" alt="SHS_home_building"/>3</span></a>
+		<a href="#" title="story_class"><span><img src="data6/tooltips/story_class.jpg" alt="story_class"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine6/wowslider.js"></script>
+	<script type="text/javascript" src="engine6/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
         </div>
-      </section>
+    </section>
+    <section>
+        <div class="content-container ">
+            <!--<img src="images/school.jpg ">-->
 
-      <!---SLIDER_BOX-->
-           <div class="slider_box">
-           
-           </div>
-     
-     <section class="wapper">      
-      <div class="content-container">
-      <!--<img src="images/school.jpg">--> 
-             <div class="inner-content">
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                  <p> GitHub brings together the world's largest community of developers to discover, 
-                      share, and build better software. From open source projects to private team ..<br>
-                      <button type="button" class="btn-all">Medium</button></p></li>
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                  <p> GitHub brings together the world's largest community of developers to discover, 
-                      share, and build better software. From open source projects to private team ..<br>
-                      <button type="button" class="btn-all">Medium</button></p></li>
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                 <p> GitHub brings together the world's largest community of developers to discover, 
-                    share, and build better software. From open source projects to private team ..<br>
-                    <button type="button" class="btn-all">Medium</button></p></li>
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                   <p> GitHub brings together the world's largest community of developers to discover, 
-                      share, and build better software. From open source projects to private team ..<br>
-                      <button type="button" class="btn-all">Medium</button></p></li>
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                  <p> GitHub brings together the world's largest community of developers to discover, 
-                    share, and build better software. From open source projects to private team ..<br>
-                    <button type="button" class="btn-all">Medium</button></p></li> 
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                   <p> GitHub brings together the world's largest community of developers to discover, 
-                       share, and build better software. From open source projects to private team ..<br>
-                       <button type="button" class="btn-all">Medium</button></p></li>  
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                    <p> GitHub brings together the world's largest community of developers to discover, 
-                      share, and build better software. From open source projects to private team ..<br>
-                      <button type="button" class="btn-all">Medium</button></p></li> 
-                <li><img src="images/school_1.jpg" width="250px" height="280px">
-                   <p> GitHub brings together the world's largest community of developers to discover, 
-                       share, and build better software. From open source projects to private team ..<br>
-                       <button type="button" class="btn-all">Medium</button></p></li>              
-             </div></div>    
+            <div class="inner-content ">
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+                <li><img src="images/school_1.jpg " width="250px " height="280px ">
+                    <p> GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team ..<br>
+                        <button type="button " class="btn-all ">Medium</button></p>
+                </li>
+            </div>
+        </div>
+
     </section>
 
-    
-     <div class="row" style="background-color:lightgray">
 
-        <h2>ADMISSIONS </h2>
-             <div class="admission-columns">             
-        <div class="col-md-1"></div>
-                  <div class="col-md-3"><b>ADMISSION PROCEDURE</b>
-                    <p>There is no written test for pre-school. The admission test is for primary and secondary...
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        sometimes by accident, sometimes on purpose (injected humour and the like).
-                        <br>
-                        <button type="button" class="btn-all">Read More</button>             
-                    </p>
-                          
-                  </div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md-3"><b>ACADEMICS</b>
-                  <p>FGS Academic / Training Department works very closely with teachers for a...
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        sometimes by accident, sometimes on purpose (injected humour and the like)(injected humour and the like).<br>
-                      <button type="button" class="btn-all">Read More</button> </p>
-                 
-                  </div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md-3"><b>EXAMINATIONS</b>
-                  <p> The academic year commences from April and continues till March of next year. There are 2...
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        sometimes by accident, sometimes on purpose (injected humour and the like)<br>
-                      <button type="button" class="btn-all">Read Moe</button>             
-                  </p>          
-                  </div>
-             
+    <section>
+        <div class="container ">
+            <div class="row no-gutters">
+                <h2>ADMISSIONS </h2>
+                <div class="admission-columns ">
+                    <div class="col-md-4 "><b>ADMISSION PROCEDURE</b>
+                        <p>There is no written test for pre-school. The admission test is for primary and secondary... Lorem Ipsum is simply dummy text of the printing and typesetting industry. sometimes by accident, sometimes on purpose (injected humour
+                            and the like).
+                            <br>
+                            <button type="button " class="btn-all ">Read More</button>
+                        </p>
+                    </div>
+                    <div class="col-md-4"><b>ACADEMICS</b>
+                        <p>FGS Academic / Training Department works very closely with teachers for a... Lorem Ipsum is simply dummy text of the printing and typesetting industry. sometimes by accident, sometimes on purpose (injected humour and the like)(injected
+                            humour and the like).<br>
+                            <button type="button " class="btn-all ">Read More</button> </p>
+                    </div>
+                    <div class="col-md-4 "><b>EXAMINATIONS</b>
+                        <p> The academic year commences from April and continues till March of next year. There are 2... Lorem Ipsum is simply dummy text of the printing and typesetting industry. sometimes by accident, sometimes on purpose (injected humour
+                            and the like)<br>
+                            <button type="button " class="btn-all ">Read Moe</button>
+                        </p>
+                    </div>
                 </div>
             </div>
-                <!--<img src="images/library.jpg"  height="350px" >--->  
-         
+        </div>
+    </section>
 
-      
 
-      <div class="row">
-            <h2>POSITION HOLDERS  </h2>
 
-            <div class="col-md-2"></div>
-            
-             <ul class="position-holder">
-                <li><img src="images/boy.jpg" alt="boy.jpg" width="200px" height="200px">
-                <p><b>3rd</b> Position Matric Commerce Karachi Board </p></li>
-                <li><img src="images/boy_2.png" alt="boy_2.png" width="200px" height="200px">
-                  <p><b>2nd</b> Position Matric Science Karachi Board </p></li>
-                <li><img src="images/girl.jpg" alt="girl.jpg" width="200px" height="200px">
-                  <p><b>1st</b> Position Matric Medical Science Karachi Board </p></li>
-                <li><img src="images/girl_2.jpg" alt="girl_2.jpg" width="200px" height="200px">
-                  <p><b>4th</b> Position Matric Computer Science Karachi Board </p></li>
-              </ul>
-          </div>
-   
-            <div class="col-md-2"></div>
-           </div>
 
-<!--FOOTER START-->
-<div class="footer">
-        <div class="row">   
-           <div class="col-md-2"></div>
-           <div class="col-md-4"></div>
-           <div class="col-md-4"></div>
-           <div class="col-md-2"></div>
-          </div>
+    <section>
+        <div class="holder">
+            <div class="container ">
+                <div class="row ">
+                    <h2>POSITION HOLDERS </h2>
 
-      
-        <div id="design_develop">All Rights Reserved&copy;2019 Design & Develop By "Nabeel Ahmed"</div>
-      </div>
+                    <div class="col-md-12 ">
 
-</body>    
+                        <ul class="position-holder ">
+                            <li><img src="images/boy.jpg " alt="boy.jpg " width="200px " height="200px ">
+                                <p><b>3rd</b> Position Matric Commerce Karachi Board </p>
+                            </li>
+                            <li><img src="images/boy_2.png " alt="boy_2.png " width="200px " height="200px ">
+                                <p><b>2nd</b> Position Matric Science Karachi Board </p>
+                            </li>
+                            <li><img src="images/girl.jpg " alt="girl.jpg " width="200px " height="200px ">
+                                <p><b>1st</b> Position Matric Medical Science Karachi Board </p>
+                            </li>
+                            <li><img src="images/girl_2.jpg " alt="girl_2.jpg " width="200px " height="200px ">
+                                <p><b>4th</b> Position Matric Computer Science Karachi Board </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER START-->
+    <section>
+        <div class="footer ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-2 "></div>
+                    <div class="col-md-4 "></div>
+                    <div class="col-md-4 "></div>
+                    <div class="col-md-2 "></div>
+                </div>
+
+
+                <div id="design_develop ">All Rights Reserved&copy;2019 Design & Develop By "Nabeel Ahmed "</div>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
